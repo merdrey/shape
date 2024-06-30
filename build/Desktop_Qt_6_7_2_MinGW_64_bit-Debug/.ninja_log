@@ -1,14 +1,13 @@
 # ninja log v6
-19	333	7414534561215344	CMakeFiles/shapeInfo.dir/main.cpp.obj	1ac38d58ecf6193d
-342	477	7413938312001439	shapeInfo.exe	173008607ec93e50
-13	419	7414485584683963	CMakeFiles/shapeInfo.dir/circle.cpp.obj	706c2bfa0565a65a
+19	357	7414683600737367	CMakeFiles/shapeInfo.dir/main.cpp.obj	1ac38d58ecf6193d
+358	733	7414683604118905	shapeInfo.exe	4ed1f4092b30ba47
+24	274	7414683600777810	CMakeFiles/shapeInfo.dir/circle.cpp.obj	706c2bfa0565a65a
 18	328	7414520895407950	CMakeFiles/shapeInfo.dir/printInfo.cpp.obj	43441ce55238b533
-9	424	7414485584639267	CMakeFiles/shapeInfo.dir/rectangle.cpp.obj	a138daa4b62730bc
+27	269	7414683600817649	CMakeFiles/shapeInfo.dir/rectangle.cpp.obj	a138daa4b62730bc
 21	365	7414497142198632	CMakeFiles/shapeInfo.dir/shape.cpp.obj	22992909ae6161bc
 15	25	7414528810368029	clean	101d0f6048d5fe99
-2	395	7414541403238137	build.ninja	c41b9285e1061fd6
-3	333	7414542513841544	CMakeFiles/shapeInfo.dir/main.cpp.obj	1ac38d58ecf6193d
-20	339	7414542752169968	CMakeFiles/shapeInfo.dir/main.cpp.obj	1ac38d58ecf6193d
-18	332	7414542953630622	CMakeFiles/shapeInfo.dir/main.cpp.obj	1ac38d58ecf6193d
-19	333	7414546711326147	CMakeFiles/shapeInfo.dir/main.cpp.obj	1ac38d58ecf6193d
-334	416	7414546714470461	shapeInfo.exe	173008607ec93e50
+2	395	7414688169321950	build.ninja	c41b9285e1061fd6
+22	372	7414691790507288	CMakeFiles/shapeInfo.dir/main.cpp.obj	1ac38d58ecf6193d
+18	73	7414692202969976	CMakeFiles/shapeInfo.dir/circle.cpp.obj	706c2bfa0565a65a
+4	54	7414692593108361	CMakeFiles/shapeInfo.dir/rectangle.cpp.obj	a138daa4b62730bc
+55	153	7414692593611073	shapeInfo.exe	4ed1f4092b30ba47

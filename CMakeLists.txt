@@ -7,10 +7,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(shapeInfo main.cpp
     shape.h
-
     circle.h
     rectangle.h
-
+    circle.cpp
+    rectangle.cpp
 )
 
 include(GNUInstallDirs)

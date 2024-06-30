@@ -55,6 +55,18 @@ build CMakeFiles/shapeInfo.dir/main.cpp.obj: CXX_COMPILER__shapeInfo_unscanned_D
   OBJECT_DIR = CMakeFiles\shapeInfo.dir
   OBJECT_FILE_DIR = CMakeFiles\shapeInfo.dir
 
+build CMakeFiles/shapeInfo.dir/circle.cpp.obj: CXX_COMPILER__shapeInfo_unscanned_Debug D$:/projects/shapeInfo/circle.cpp || cmake_object_order_depends_target_shapeInfo
+  DEP_FILE = CMakeFiles\shapeInfo.dir\circle.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\shapeInfo.dir
+  OBJECT_FILE_DIR = CMakeFiles\shapeInfo.dir
+
+build CMakeFiles/shapeInfo.dir/rectangle.cpp.obj: CXX_COMPILER__shapeInfo_unscanned_Debug D$:/projects/shapeInfo/rectangle.cpp || cmake_object_order_depends_target_shapeInfo
+  DEP_FILE = CMakeFiles\shapeInfo.dir\rectangle.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\shapeInfo.dir
+  OBJECT_FILE_DIR = CMakeFiles\shapeInfo.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target shapeInfo
@@ -63,7 +75,7 @@ build CMakeFiles/shapeInfo.dir/main.cpp.obj: CXX_COMPILER__shapeInfo_unscanned_D
 #############################################
 # Link the executable shapeInfo.exe
 
-build shapeInfo.exe: CXX_EXECUTABLE_LINKER__shapeInfo_Debug CMakeFiles/shapeInfo.dir/main.cpp.obj
+build shapeInfo.exe: CXX_EXECUTABLE_LINKER__shapeInfo_Debug CMakeFiles/shapeInfo.dir/main.cpp.obj CMakeFiles/shapeInfo.dir/circle.cpp.obj CMakeFiles/shapeInfo.dir/rectangle.cpp.obj
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\shapeInfo.dir

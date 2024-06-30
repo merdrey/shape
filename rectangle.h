@@ -5,19 +5,11 @@
 
 class Rectangle : public Shape {
 public:
-    Rectangle(double w, double h) {
-        width = w;
-        height = h;
-    }
-    double area() override {
-        return width * height;
-    }
-    double perimeter() override {
-        return (width + height) * 2;
-    }
+    Rectangle(double, double);
+    double area() override;
+    double perimeter() override;
 private:
     double width;
     double height;
 };
-
 #endif // RECTANGLE_H
